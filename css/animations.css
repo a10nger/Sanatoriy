@@ -1,0 +1,40 @@
+/* Elements */
+
+
+.about-us,
+.assessments,
+.pryces {
+    animation: linear animate-in-and-out;
+    animation-timeline: view();
+}
+
+
+/* Animations */
+
+
+@keyframes animate-in-and-out {
+    entry 0% {
+        opacity: 0;
+        transform: translateY(50%);
+    }
+
+    entry 70% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    exit 0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    exit 90% {
+        opacity: 0.4;
+        transform: translateY(0);
+    }
+
+    exit 100% {
+        opacity: 0;
+        transform: translateY(0);
+    }
+}

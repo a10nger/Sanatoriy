@@ -1,0 +1,131 @@
+@media (max-width: 1320px) {
+    .pryces .cards {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+    .info .content-wrap {
+        min-width: 50%;
+    }
+}
+
+@media (max-width: 872px) {
+    header {
+        height: calc((75px*2)/2);
+    }
+
+    header>.h-header {
+        height: 100%;
+    }
+
+    header .buttons-h .phone_number,
+    header .buttons-h .e-mail {
+        visibility: hidden;
+    }
+
+    .buttons-f {
+        display: none;
+    }
+
+    #card-text {
+        text-align: center !important;
+    }
+
+    .menu__btn {
+        display: flex !important;
+        order: -1 !important;
+        z-index: 5 !important;
+    }
+
+    .menu__list {
+        transform: translateY(-100%);
+        position: absolute;
+        left: 0;
+        right: 0;
+        backdrop-filter: blur(20px);
+        z-index: -99999;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* .menu__list-item {
+        width: 40% !important;
+    }
+    .menu__list-item:hover.menu__list-arrow::before {
+        transform: rotate(100deg);
+    }
+    .menu__list-submenu {
+        transform: rotateX(0) rotateY(90deg);
+    }
+    .menu__list-item, .submenu__item {
+        border: 1px solid black;
+        margin-top: -1px;
+    } */
+    .menu {
+        display: flex;
+    }
+
+    /* .menu__list-item:hover.menu__list-arrow::before {
+        transform: rotate(140deg);
+    }
+    .menu__list-submenu {
+        top: 0 !important;
+        left: 100% !important;
+    } */
+}
+
+@media (min-width: 768px) {
+    .info {
+        align-items: center;
+    }
+
+    .info .row {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .info {
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    .info .mbr-row {
+        -webkit-justify-content: center;
+        justify-content: center;
+    }
+
+    .info .content-wrap {
+        width: 100%;
+        max-width: 800px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    p {
+        font-size: 18px;
+    }
+
+    .h-header .search {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 680px) {
+    .pryces .cards {
+        grid-template-columns: auto;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+}
