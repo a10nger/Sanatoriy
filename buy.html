@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style_1.css">
+  <link rel="stylesheet" href="css/style_2.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min_2.css">
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="css/mbr-additional.css" type="text/css">
+  <title>Здоровый Бриз</title>
+</head>
+
+<body id="scroll-home">
+
+
+  <!-- Header -->
+
+
+  <header class="header">
+
+    <div class="h-header">
+
+      <div class="buttons-h">
+
+        <div class="phone_number z-1" id="phone_number">
+          <div class="img">
+            <img src="img/phone.svg" alt="Phone">
+          </div>
+          <div class="text"><a class="col-t-w" href="contacts.html">+7 (777) 777-77-77</a></div>
+        </div>
+
+        <div class="e-mail z-1" id="e-mail">
+          <div class="img">
+            <img src="img/e-mail.svg" alt="Email">
+          </div>
+          <div class="text"><a class="col-t-w" href="contacts.html">maxteam@mail.ru</a></div>
+        </div>
+      </div>
+
+      <div class="center">
+        <div class="logo">
+          <a id="home">
+            <img src="img/logo.svg" alt="Logo">
+          </a>
+        </div>
+      </div>
+
+      <form class="search">
+        <div class="img">
+          <img src="img/search.svg" alt="Search">
+        </div>
+        <input class="text" placeholder="Поиск по сайту (не работает)">
+      </form>
+
+    </div>
+
+
+    <button class="menu__btn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+
+    <ul class="menu__list">
+      <li class="menu__list-item menu__list-arrow">
+
+        <a class="menu__list-link" id="home">Санаторий</a>
+
+        <ul class="menu__list-submenu">
+          <li class="submenu__item">
+            <a href="index.html#about-us" class="submenu__link">О санатории</a>
+          </li>
+          <li class="submenu__item">
+            <a href="index.html#leisure" class="submenu__link">Досуг</a>
+          </li>
+          <li class="submenu__item">
+            <a href="index.html#food" class="submenu__link">Питание</a>
+          </li>
+          <li class="submenu__item">
+            <a href="index.html#rooms" class="submenu__link">Номерной фонд</a>
+          </li>
+          <li class="submenu__item">
+            <a href="index.html#contacts" class="submenu__link">Контактная информация</a>
+          </li>
+        </ul>
+
+      </li>
+
+      <li class="menu__list-item">
+        <a href="reviews.html" class="menu__list-link">Отзывы</a>
+      </li>
+
+      <li class="menu__list-item">
+        <a href="buy.html" class="menu__list-link">Купить путёвку</a>
+      </li>
+
+      <li class="menu__list-item">
+        <a href="treatment.html" class="menu__list-link">Лечение</a>
+      </li>
+
+      <li class="menu__list-item menu__list-arrow">
+
+        <a href="info.html" class="menu__list-link">Информация</a>
+
+        <ul class="menu__list-submenu">
+          <li class="submenu__item">
+            <a href="info/documents.html" class="submenu__link">Документы для заселения</a>
+          </li>
+          <li class="submenu__item">
+            <a href="info/how_to_pay.html" class="submenu__link">Как оплатить путёвку</a>
+          </li>
+          <li class="submenu__item">
+            <a href="info/requisites.html" class="submenu__link">Реквизиты</a>
+          </li>
+          <li class="submenu__item">
+            <a href="info/memo.html" class="submenu__link">Памятка туриста</a>
+          </li>
+          <li class="submenu__item">
+            <a href="info/reg_documents.html" class="submenu__link">Регламентирующие документы</a>
+          </li>
+          <li class="submenu__item">
+            <a href="info/resort_fee.html" class="submenu__link">Курортный сбор</a>
+          </li>
+
+        </ul>
+
+      </li>
+
+      <li class="menu__list-item menu__list-arrow">
+
+        <a class="menu__list-link">Предложения</a>
+
+        <ul class="menu__list-submenu">
+          <li class="submenu__item">
+            <a href="offers/permanent.html" class="submenu__link">Постоянным клиентам</a>
+          </li>
+          <li class="submenu__item">
+            <a href="offers/union.html" class="submenu__link">Профсоюзные путёвки</a>
+          </li>
+        </ul>
+      </li>
+
+    </ul>
+
+  </header>
+
+
+  <!-- Main -->
+
+
+  <main id="ops__temporarily">
+
+    <!-- main__elements -->
+
+    <section class="buy__main__head">
+      <h2 class="h1">Купить путёвку</h2>
+      <div class="bread-crumb">
+        <a href="index.html">Главная</a>
+        <span> / </span>
+        <a class="reset">Купить путёвку</a>
+      </div>
+    </section>
+
+    <section class="buy__dates">
+
+      <h2 class="rooms__name bold bg-b">Выбрать даты</h2>
+
+      <div class="container">
+
+        <form action="" class="dates">
+          <label for="date_in">Дата заезда</label>
+          <label for="date_out">Дата отъезда</label>
+
+          <input type="date" id="date_in">
+          <input type="date" id="date_out">
+        </form>
+
+        <form action="" class="programm">
+          <label for="programm">Программа пребывания</label>
+          <select id="programm" name="programm">
+            <option value="apple">Общетерапевтическая</option>
+            <option value="banana">Оздоровительная</option>
+          </select>
+        </form>
+
+      </div>
+
+    </section>
+
+    <section class="buy__info">
+
+      <div class="container">
+        <p>Кол-во ночей по программе (мин. 3 / макс.: 30):</p>
+        <br>
+        <p>В стоимость путевки включено проживание, лечение по программе <a
+            href="treatment.html">Общетерапевтическая</a>
+          (виды и количество процедур определяются врачом санатория), 3-х разовое питание по системе заказного меню.</p>
+      </div>
+
+    </section>
+
+    <section class="rooms">
+      <h2 class="rooms__name bold bg-b">Забронировать номер</h2>
+      <p class="h2 room">Пплан: Стандарт</p>
+      <div class="rooms-info">
+        <div class="img">
+          <img class="img" src="img/rooms/lux.webp">
+        </div>
+        <ul class="include">
+          <p class="h3 room__info">Одноместный номер 3 категории с удобствами в номере</p>
+          <li class="h4">Комплектация номера и цветовая гамма может отличаться от заявленной в описании и представленной
+            на фотографиях</li>
+          <li class="h4">Площадь номера: 14 м2</li>
+          <li class="h4">
+            <div class="bold">Услуги и удобства:</div> Туалет, Душ, Полотенца, Телевизор, Холодильник, Шкаф/гардероб
+          </li>
+          <li class="h4">
+            <div class="bold">Тип кровати/ей:</div> 1 односпальная кровать
+          </li>
+        </ul>
+
+        <div class="buy__pryce__buy">
+
+          <div class="pryce">
+            <p class="h2 center" id="buy__pryce">13 500.00 RUB</p>
+            <div class="buy__pryce__info">?</div>
+          </div>
+
+          <button class="button">
+            <a href="booking.html" class="display-7 text">Забронировать</a>
+          </button>
+
+        </div>
+      </div>
+    </section>
+
+
+    <section class="procedures">
+
+      <!-- <h2 class="rooms__name bold bg-b">Дополнительные услуги</h2> -->
+
+    </section>
+
+
+    <section class="services">
+
+    </section>
+
+  </main>
+
+
+  <!-- Modal -->
+
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h1>Забронировать номер</h1>
+      <div id="room-info"></div>
+      <button href="buy.html" class="button" id="add-to-cart">
+        <p class="text ta-c h3">Добавить номер в путёвку (не работает)</p>
+      </button>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+
+  <footer class="footer">
+
+    <div class="f-header">
+
+      <div class="logo">
+        <a id="home">
+          <img src="img/logo.svg" alt="Logo">
+        </a>
+      </div>
+
+      <ul class="menu">
+
+        <li class="menu__list-item">
+          <a href="reviews.html" class="menu__list-link">Отзывы</a>
+        </li>
+
+        <li class="menu__list-item">
+          <a href="info.html" class="menu__list-link">Информация</a>
+        </li>
+
+        <li class="menu__list-item">
+          <a href="contacts.html" class="menu__list-link">Контакты</a>
+        </li>
+
+      </ul>
+
+      <div class="buttons-f">
+
+        <div class="phone_number z-1" id="phone_number">
+          <div class="img">
+            <img src="img/phone.svg" alt="Phone">
+          </div>
+          <div class="text"><a class="col-t-w" href="contacts.html">+7 (777) 777-77-77</a></div>
+        </div>
+
+        <div class="e-mail z-1" id="e-mail">
+          <div class="img">
+            <img src="img/e-mail.svg" alt="Email">
+          </div>
+          <div class="text"><a class="col-t-w" href="contacts.html">maxteam@mail.ru</a></div>
+        </div>
+      </div>
+
+    </div>
+
+  </footer>
+
+</body>
+<script src="js/scripts.js"></script>
+<script src="assets/smoothscroll/smooth-scroll.js"></script>
+
+</html>
